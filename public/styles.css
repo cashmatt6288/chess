@@ -1,0 +1,30 @@
+
+h1 {
+    color: red
+}
+.board {
+    width: inherit;
+    border: 30px solid black;
+    position: absolute;
+}
+
+div.board {
+    padding-bottom: 0;
+}
+
+button:focus {
+    opacity: .5;
+    outline: none;
+}
+
+button.board-square {
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    padding: 0;
+    border: 0;
+    vertical-align: bottom;
+}
